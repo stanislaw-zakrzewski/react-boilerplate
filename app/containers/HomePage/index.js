@@ -12,7 +12,7 @@ import Weather from 'containers/Weather/Loadable';
 export default function HomePage() {
   return (
     <>
-      <h1>Weather:</h1> <Weather />
+      <h1 className="title">Weather:</h1> <Weather />
     </>
   );
 }
