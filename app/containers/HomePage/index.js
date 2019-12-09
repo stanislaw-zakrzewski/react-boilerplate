@@ -7,6 +7,12 @@
 
 import React from 'react';
 
+import Weather from 'containers/Weather/Loadable';
+
 export default function HomePage() {
-  return <h1>Weather:</h1>;
+  return (
+    <>
+      <h1>Weather:</h1> <Weather />
+    </>
+  );
 }
